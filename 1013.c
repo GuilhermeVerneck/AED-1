@@ -1,3 +1,5 @@
+//Guilherme da Rocha Verneck Braz 176497
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
