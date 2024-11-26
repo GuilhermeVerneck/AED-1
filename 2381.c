@@ -1,3 +1,5 @@
+//Guilherme da Rocha Verneck Braz 176497
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -47,15 +49,6 @@ char *sorteio(No *no, int ganhador) {
         no = no->proximo;
     }
     return no ? no->lista : NULL; 
-}
-
-
-void imprimir(No *no) {
-    while (no) {
-        printf("%s", no->lista); 
-        no = no->proximo;
-    }
-    printf("\n");
 }
 
 int main() {
